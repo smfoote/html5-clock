@@ -25,7 +25,11 @@
 
   function rotateHand(hand, unit) {
     deg = (unit * 6) + 'deg';
+    hand.style.transform = 'rotate('+deg+')';
     hand.style.webkitTransform = 'rotate('+deg+')';
+    hand.style.MozTransform = 'rotate('+deg+')';
+    hand.style.OTransform = 'rotate('+deg+')';
+    hand.style.msTransform = 'rotate('+deg+')';
   }
 
   function setTime () {
