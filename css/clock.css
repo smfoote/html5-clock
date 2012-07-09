@@ -1,0 +1,129 @@
+#clock {
+  width: 700px;
+  height: 700px;
+  margin: 0 auto;
+  background: #FFF url(clock_bg.jpeg);
+  border: 10px solid #633D3D;
+  border-radius: 350px;
+  position: relative;
+}
+
+#hours {
+  list-style: none;
+  font-size: 70px;
+  font-family: 'Simonetta' serif;
+  font-weight: bold;
+}
+
+.hand {
+  text-indent: -99999em;
+  width: 8px;
+  position: absolute;
+  left: 356px;
+}
+
+.hand div {
+  height: 60%;
+  width: 8px;
+  background-color: #644C28;
+  float: right;
+}
+
+#hour-hand {
+  height: 420px;
+  top: 150px;
+}
+
+#minute-hand {
+  height: 590px;
+  top: 66px;
+}
+
+#second-hand {
+  height: 600px;
+  width: 4px;
+  top: 60px;
+  left: 358px;
+}
+
+#second-hand div {
+  width: 4px;
+  background-color: black;
+}
+
+#center-dot {
+  position: absolute;
+  height: 0;
+  width: 0;
+  border: 10px solid black;
+  top: 350px;
+  left: 350px;
+  border-radius: 10px;
+  text-indent: -99999em;
+}
+
+
+/* Positioning the hours */
+#hours li {
+  position: absolute;
+}
+
+#I {
+  top: 50px;
+  right: 170px;
+}
+
+#II {
+  top: 170px;
+  right: 57px;
+}
+
+#III {
+  top: 318px;
+  right: 23px;
+}
+
+#IV {
+  bottom: 150px;
+  right: 50px;
+}
+
+#V {
+  bottom: 42px;
+  right: 170px;
+}
+
+#VI {
+  bottom: 5px;
+  left: 326px;
+}
+
+#VII {
+  bottom: 42px;
+  left: 162px;
+}
+
+#VIII {
+  bottom: 150px;
+  left: 50px;
+}
+
+#IX {
+  top: 318px;
+  left: 12px;
+}
+
+#X {
+  top: 170px;
+  left: 57px;
+}
+
+#XI {
+  top: 50px;
+  left: 170px;
+}
+
+#XII {
+  top: 5px;
+  left: 316px;
+}
